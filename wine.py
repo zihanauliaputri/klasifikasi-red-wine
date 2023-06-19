@@ -19,9 +19,9 @@ with col1 :
     residual_sugar = st.number_input('Input nilai sisa gula')
     chlorides = st.number_input('Input nilai klorida')
     free_sulfur_dioxide = st.number_input('Input nilai sulfur dioksida bebas')
-    total_sulfur_dioxide = st.number_input('Input nilai total sulfur dioksida')
-
+    
 with col2 :
+    total_sulfur_dioxide = st.number_input('Input nilai total sulfur dioksida')
     density = st.number_input('Input nilai densitas')
     pH = st.number_input('Input nilai pH')
     sulphates = st.number_input('Input nilai sulfat')
